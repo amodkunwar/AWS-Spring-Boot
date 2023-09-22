@@ -12,7 +12,7 @@ import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 
 @Configuration
 public class StorageConfig {
-
+	// testing
 	@Value("${cloud.aws.credentials.access-key}")
 	private String accessKey;
 
